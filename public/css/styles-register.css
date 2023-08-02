@@ -1,0 +1,35 @@
+*{
+box-sizing: border-box;
+}
+
+body{
+    
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    
+}
+.registro{
+    border: solid 1px rgb(147, 147, 147);
+    background-color: rgb(147, 147, 147);
+    padding: 20px 20px;
+
+}
+.informe{
+  margin: 10px;
+}
+label{
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+}
+.infome-part{
+    border-radius: 10px;
+    width: 100%;
+}
+@media (min-width:769px){
+    .registro{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}

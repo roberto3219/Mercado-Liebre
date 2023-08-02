@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">    
+<link rel="stylesheet" href="/public/css/styles-register.css">   
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+rel="stylesheet" />
+    <title>Registrarse</title>
+</head>
+<body>
+    <form action="" method="post" class="registro">
+      <div class="informe">
+        <label for="nombreCompleto">Nombre Completo </label>
+        <input class="informe-part" type="text" name="nombreCompleto" id="nombreCompleto" min="6" required>
+       
+      </div>
+      <div class="informe">
+        <label for="nameUser">Nombre de usuari@ </label>
+            <input class="informe-part" type="text" name="nombreUsuario" id="nameUser" min="4" required>
+        
+      </div> 
+      <div class="informe">
+
+       <label for="date">Fecha de nacimiento </label>
+        <input class="informe-part" type="date" name="fechaNacimiento" id="date"  placeholder="Ej:2012-04-11" required>
+    
+      </div>
+      <div class="informe">
+
+        <label for="domicillio">domicilio </label>
+            <input class="informe-part" type="text" name="domicilio" id="domicillio" minlength="5" required>
+      </div>
+      <div class="informe">
+
+        <label>Perfil del usuario</label>
+            <input class="informe-part" type="radio" name="perfil" value="Comprador">Comprador
+            <input class="informe-part" type="radio" name="perfil" value="Vendedor">Vendedor
+    
+      </div>
+      <div class="informe">
+        <label for="categoria">Categoria de interés</label>
+            <p><input type="checkbox" name="categoria" value="Electro">Electro</p>
+            <p><input type="checkbox" name="categoria" value="Moda">Moda</p>
+            <p><input type="checkbox" name="categoria" value="Hogar">Hogar</p>            <p><input type="checkbox" name="categoria" value="Jugueteria">Jugueteria
+            <p><input type="checkbox" name="categoria" value="Vida-sana">Vida sana</p>
+       
+      </div>
+      <div class="informe">
+        <label for="foto">Foto de usuario
+            <input class="informe-part" type="file" name="foto-usuario" id="foto" accept=" .jpg">
+        </label>
+      </div>
+      <div class="informe">
+        <label for="clave1">Contraseña</label>
+        <input class="informe-part" type="password" name="clave1" id="clave1" size="20" required>
+      </div>
+      <div class="informe">
+
+        <label for="clave2">Confirmar contraseña </label>
+            <input class="informe-part" type="password" name="clave2" id="clave2" size="20" required>
+        
+      </div>
+      <div class="informe">
+        <button type="submit">Login</button>
+      
+        <button type="reset">Borrar</button>
+      </div>
+    </form>
+</body>
+</html>

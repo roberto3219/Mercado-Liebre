@@ -1,0 +1,221 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    
+}
+.main-header{
+   padding: 20px;
+   background-color: #EAC926;
+}
+
+.logo_mercado{
+    width:150px;
+}
+ ul li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 17px;
+}
+
+.burger-menu{
+    width: 50px;
+     padding: 15px 0;
+    border-radius: 8px;
+     margin: auto;
+     text-align: center;
+     color: #ebebeb;
+     font-size: 18px;
+     display: block;
+     border: solid 1px #1259c3;
+     background-color:#1259c3 ;
+     box-sizing: border-box;
+     margin-bottom: 15px;
+ }
+ 
+ .Compra_cuotas{
+     margin:25px;
+     text-align: center;
+     font-weight: 400;
+     font-size: 15px;
+ }
+ 
+.formulario-login{
+  border: none;
+  background-color: rgb(204, 202, 202);
+  margin: 0;
+  padding: 20px 40px;
+  width: 100%;
+  display: block;
+  font-size: 20px;
+}
+.botton-form{
+    color: #ebebeb;
+    padding: 8px 0px;
+    width: 100%;
+    border: #1259c3 solid 1px;
+    border-radius: 8px;
+    background-color: #1259c3;
+    transition-property: background-color;
+    transition-duration: 1s;
+}
+.informe-part{
+    width: 100%;
+    padding: 6px 4px;
+    border-radius: 10px;
+}
+.informe{
+    margin: 20px 0px;
+}
+ footer{
+    background-color: white;
+    text-align: center;
+}
+.diseño_logo_footer i{
+    width: 60px;
+    padding: 10px;    
+    margin: auto;
+    font-size: 2em;
+    color: #1259c3;
+    margin-top:50px ;
+    margin-bottom: 10px;
+    transition-property: color;
+    transition-duration:1s;
+
+}
+.diseño_footer{
+    border: solid 1px #ebebeb;
+    background-color: #ebebeb;
+    padding: 20px;
+}
+.parrafo_footer{
+    opacity: 0.5;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+.botton-form:hover{
+    background-color: #0022AA;
+}
+
+.diseño_logo_footer i:hover{
+  color: #0022AA;
+}
+@media (min-width:361px){
+    .logo_mercado{
+       width:30%;
+    }
+        ul{
+        display: none;
+    }
+    .main-header-top-bar{
+        display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+    }
+}
+@media(min-width:769px){    
+    .diseño_footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-around
+    }
+    .footer_descripcion{
+        width:30%
+    }
+    .formulario-login{
+        padding: 20px 110px;
+        width: 100%;
+        display: block;
+        font-size: 23px;
+      }
+
+    .Compra_cuotas{
+        max-width: 200px;
+        text-align: right;
+    }
+    .main-header-bottom-bar{
+        display: flex;
+        justify-content: space-between;
+    }
+    .main-header-bottom-bar li{
+        margin: 0 5px;
+    }
+    ul{
+        display: block;
+        display: flex;
+    }
+    .descripciones{
+        display: block;
+    }
+    .burger-menu{
+        display: none;
+    }
+    .main-header-top-bar{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+@media(min-width:1200px){
+    .diseño_footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-around
+    }
+    .formulario-login{
+        padding: 20px 250px;
+        width: 100%;
+        font-size: 26px;
+      }
+      .informe-part{
+        padding: 10px 15px;
+        border-radius: 10px;
+    }
+    .logo_mercado{
+    width: 250px;
+}
+.main-header-top-bar, .main-header-bottom-bar{
+    max-width: 1200px;
+    margin: auto;
+}
+.Compra_cuotas{
+    margin:0;
+    max-width: none;
+    font-size: 18px;
+    font-weight: 400;
+}
+.main-header-top-bar{
+    align-items: center;
+
+}
+.main-header-bottom-bar{
+    margin-top: 40px;
+}
+.main-header-bottom-bar li{
+    margin: 0 10px;
+}
+.main-header-bottom-bar a{
+    font-size: 19px;
+}
+.bar-seacher{
+    line-height: 2.15;
+}
+}
