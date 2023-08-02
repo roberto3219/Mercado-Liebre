@@ -31,7 +31,8 @@ a{
     font-size: 17px;
 }
 .bar_anuncio
-{
+{   
+    display: block;
     width:100%;
     box-sizing: border-box;
 }
