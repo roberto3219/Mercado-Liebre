@@ -8,7 +8,14 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color:#EAC926 ;
     box-sizing: border-box;
-    
+}
+.footer{
+    position: relative;
+    margin-top: 250px;
+}
+.diseño_footer{
+    position: absolute;
+    bottom: 0;
 }
 .main-header{
    padding: 20px;
@@ -193,10 +200,19 @@ footer{
 }
 
 .registro{
-    border: solid 1px rgb(147, 147, 147);
+    border: solid 1px rgb(0, 0, 0);
+    box-shadow: 1px 1px 10px 1px black;
+    background-color:white;
+    padding: 50px 50px;
+    width: 750px;
+    border-radius: 10px;
+}
+.section_form_register{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(147, 147, 147);
-    padding: 20px 20px;
-
 }
 .informe{
   margin: 10px;
@@ -206,10 +222,21 @@ label{
     font-size: 18px;
     font-weight: 600;
 }
-.infome-part{
-    border-radius: 10px;
-    width: 100%;
-}
+    .informe-part{
+        width: 100%;
+        padding: 6px 4px;
+        border-radius: 10px;
+    }
+    .botton-form{
+        color: #ebebeb;
+        padding: 8px 0px;
+        width: 30%;
+        border: #1259c3 solid 1px;
+        border-radius: 8px;
+        background-color: #1259c3;
+        transition-property: background-color;
+        transition-duration: 1s;
+    }
 @media (min-width:361px){
 .logo_mercado{
    width:30%;

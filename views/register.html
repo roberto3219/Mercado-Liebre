@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="/css/styles.css">   
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
 rel="stylesheet" />
-    <title>Registrarse</title>
+    <title>Mercado liebre</title>
 </head>
 <body>
   <header class="main-header">
@@ -37,6 +37,8 @@ rel="stylesheet" />
    </nav>
     <div class="burger-menu"><i class="fas fa-bars"></i></div>
    </header>
+
+   <section class="section_form_register">
     <form action="" method="post" class="registro">
       <div class="informe">
         <label for="nombreCompleto">Nombre Completo </label>
@@ -62,7 +64,7 @@ rel="stylesheet" />
       <div class="informe">
 
         <label>Perfil del usuario</label>
-            <input class="informe-part" type="radio" name="perfil" value="Comprador">Comprador
+           <p> <input class="informe-part" type="radio" name="perfil" value="Comprador">Comprador</p> 
             <input class="informe-part" type="radio" name="perfil" value="Vendedor">Vendedor
     
       </div>
@@ -70,7 +72,8 @@ rel="stylesheet" />
         <label for="categoria">Categoria de interés</label>
             <p><input type="checkbox" name="categoria" value="Electro">Electro</p>
             <p><input type="checkbox" name="categoria" value="Moda">Moda</p>
-            <p><input type="checkbox" name="categoria" value="Hogar">Hogar</p>            <p><input type="checkbox" name="categoria" value="Jugueteria">Jugueteria
+            <p><input type="checkbox" name="categoria" value="Hogar">Hogar</p>            
+            <p><input type="checkbox" name="categoria" value="Jugueteria">Jugueteria
             <p><input type="checkbox" name="categoria" value="Vida-sana">Vida sana</p>
        
       </div>
@@ -90,10 +93,42 @@ rel="stylesheet" />
         
       </div>
       <div class="informe">
-        <button type="submit">Login</button>
+        <button type="submit" class="botton-form">Login</button>
       
-        <button type="reset">Borrar</button>
+        <button type="reset" class="botton-form">Borrar</button>
       </div>
     </form>
+  </section> 
+    <footer class="footer">
+      <section class="diseño_footer">
+       <div class="footer_descripcion">
+          <div class="diseño_logo_footer">
+          <i class="fas fa-credit-card"></i> 
+       </div>   
+      <h3>Pagá con tarjeta o en efectivo</h3>
+      <p class="parrafo_footer">Con mercado Libre Cash,ténes cuotas sin interés con tarjeta o efectivo en
+          puntos de pago.¡Y siempre es seguro!
+      </p>
+  </div>
+  <div class="footer_descripcion">
+      <div class="diseño_logo_footer">
+          <i class="fas fa-gift"></i>         </div>   
+      <h3>Envío gratis desde $2.500</h3>
+      <p class="parrafo_footer">Solo por estar registrad@ en Mercado Libre tenés envíos gratis en miles de 
+          productos. Es un beneficio de Mercado Puntos.
+      </p>
+  </div>
+  <div class="footer_descripcion">
+      <div class="diseño_logo_footer">
+          <i class="fas fa-user-shield"></i> 
+              </div>   
+      <h3>Seguridad, de principio a fin</h3>
+      <p class="parrafo_footer">¿No te gusta? ¡Devolvelo! En Mercado Libre, no hay nada que no puedas hacer, 
+          porque estas siempre protegid@
+      </p>
+  </div>
+      <p class="parrafo_footer">Copyright 1999-2020 MercadoLibre S.R.L.</p>
+  </section>
+  </footer>
 </body>
 </html>

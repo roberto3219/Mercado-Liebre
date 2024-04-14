@@ -30,7 +30,14 @@ a{
     padding: 5px 0;
     font-size: 17px;
 }
-
+.footer{
+    position: relative;
+    margin-top: 2px;
+}
+.diseño_footer{
+    position: absolute;
+    bottom: 0;
+}
 .burger-menu{
     width: 50px;
      padding: 15px 0;
@@ -52,7 +59,12 @@ a{
      font-weight: 400;
      font-size: 15px;
  }
- 
+ .section_footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  align-items: center;
+ }
 .formulario-login{
   border: none;
   background-color: rgb(204, 202, 202);
@@ -61,11 +73,12 @@ a{
   width: 100%;
   display: block;
   font-size: 20px;
+  height: 750px;
 }
 .botton-form{
     color: #ebebeb;
     padding: 8px 0px;
-    width: 100%;
+    width: 30%;
     border: #1259c3 solid 1px;
     border-radius: 8px;
     background-color: #1259c3;
@@ -79,6 +92,9 @@ a{
 }
 .informe{
     margin: 20px 0px;
+    width: 700px;
+    justify-content: center;
+  align-items: center;
 }
  footer{
     background-color: white;
