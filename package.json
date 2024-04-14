@@ -4,8 +4,8 @@
   "description": "hola",
   "main": "app.js",
   "scripts": {
-    "start": "node desafios/app.js",
-    "test":"nodemon desafios/app.js"
+    "start": "node app.js",
+    "test":"nodemon app.js"
   },
   "repository": {
     "type": "git",

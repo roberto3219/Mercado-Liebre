@@ -192,6 +192,24 @@ footer{
    transform: rotate(-90deg);
 }
 
+.registro{
+    border: solid 1px rgb(147, 147, 147);
+    background-color: rgb(147, 147, 147);
+    padding: 20px 20px;
+
+}
+.informe{
+  margin: 10px;
+}
+label{
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+}
+.infome-part{
+    border-radius: 10px;
+    width: 100%;
+}
 @media (min-width:361px){
 .logo_mercado{
    width:30%;
